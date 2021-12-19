@@ -19,6 +19,7 @@ function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
 
+  // navbar will conditionally render based on users selection
   return (
     <div>
       <Nav
